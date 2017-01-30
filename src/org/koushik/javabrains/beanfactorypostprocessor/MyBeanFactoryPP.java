@@ -10,7 +10,7 @@ public class MyBeanFactoryPP implements BeanFactoryPostProcessor{
 	public void postProcessBeanFactory(ConfigurableListableBeanFactory arg0)
 			throws BeansException {
 		
-		System.out.println("This is bean factory post processor !!!");
+		System.out.println("This is bean factory post processor. One of the usage is PropertyPlaceHolderConfigurer !!!");
 	}
 
 }
